@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SANA SANA</title>
@@ -75,9 +76,10 @@
     <div class="logo">SANA SANA</div>
     <nav>
       <a href="#index.html">Inicio</a>
+      <a href="#cursos">Capacitaciones</a>
       <a href="#services">Servicios</a>
       <a href="#catalog">Catalogo</a>
-      <a href="#contactForm">Contacto</a>
+      <a href="#contacto">Contacto</a>
     </nav>
     <div class="menu-icon" onclick="toggleMenu()">☰</div>
   </header>
@@ -100,7 +102,228 @@
     </header>
 </body>
 </html>
-  
+
+<section class="cursos-section">
+
+  <p class="alerta-cursos">Inscripciones abiertas - Cupos limitados</p>
+<section id="cursos" class="cursos">
+  <div class="section-header">
+    <h2>Cursos de Especialización</h2>
+    <p>Capacítate con nuestros programas disponibles.</p>
+  </div>
+
+  <div class="carrusel-container">
+    <button class="btn prev">&#10094;</button>
+
+    <div class="carrusel">
+
+      <!-- 1 -->
+      <div class="curso-card">
+        <img src="ingles.jpeg">
+        <div class="contenido">
+          <h3>Curso de Inglés</h3>
+          <p>Niveles: Básico, Intermedio y Avanzado.</p>
+          <span>Inicio: 10 Oct 2025</span>
+          <a href="https://wa.me/51907826118?text=Hola,%20quiero%20info%20del%20Curso%20de%20Inglés" target="_blank">Inscribirme</a>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="curso-card">
+        <img src="ofimatica.jpeg">
+        <div class="contenido">
+          <h3>Curso de Ofimática</h3>
+          <p>Word, Excel, PowerPoint y más programas de Office.</p>
+          <span>Inicio: 10 Nov 2025</span>
+          <a href="https://wa.me/51907826118?text=Hola,%20quiero%20info%20del%20Curso%20de%20Ofimática" target="_blank">Inscribirme</a>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="curso-card">
+        <img src="farmacovigilancia.jpeg">
+        <div class="contenido">
+          <h3>Curso de Farmacovigilancia</h3>
+          <p>Seguridad en medicamentos y dispositivos.</p>
+          <span>Inicio: 13 Sept 2025</span>
+          <a href="https://wa.me/51907826118?text=Hola,%20quiero%20info%20del%20Curso%20de%20Farmacovigilancia" target="_blank">Inscribirme</a>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="curso-card">
+        <img src="bpof.jpeg">
+        <div class="contenido">
+          <h3>Buenas Prácticas Farmacéuticas</h3>
+          <p>Normas de atención farmacéutica.</p>
+          <span>Inicio: 20 Sept 2025</span>
+          <a href="https://wa.me/51907826118?text=Hola,%20quiero%20info%20de%20Buenas%20Prácticas%20Farmacéuticas" target="_blank">Inscribirme</a>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="curso-card">
+        <img src="manejo.jpeg">
+        <div class="contenido">
+          <h3>Manejo de Estupefacientes</h3>
+          <p>Psicotrópicos en farmacias y boticas.</p>
+          <span>Inicio: 27 Sept 2025</span>
+          <a href="https://wa.me/51907826118?text=Hola,%20quiero%20info%20del%20Curso%20de%20Estupefacientes" target="_blank">Inscribirme</a>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="curso-card">
+        <img src="gestion.jpeg">
+        <div class="contenido">
+          <h3>Gestión Pública en Salud</h3>
+          <p>Administración en servicios de salud.</p>
+          <span>Inicio: 2 Ago 2025</span>
+          <a href="https://wa.me/51907826118?text=Hola,%20quiero%20info%20de%20Gestión%20Pública%20en%20Salud" target="_blank">Inscribirme</a>
+        </div>
+      </div>
+
+      <!-- 7 -->
+      <div class="curso-card">
+        <img src="dosis.jpeg">
+        <div class="contenido">
+          <h3>Curso de Dosis Unitaria</h3>
+          <p>Dispensación segura de medicamentos.</p>
+          <span>Inicio: 9 Ago 2025</span>
+          <a href="https://wa.me/51907826118?text=Hola,%20quiero%20info%20de%20Dosis%20Unitaria" target="_blank">Inscribirme</a>
+        </div>
+      </div>
+
+      <!-- 8 -->
+      <div class="curso-card">
+        <img src="rol.jpeg">
+        <div class="contenido">
+          <h3>Rol del Técnico en Farmacia</h3>
+          <p>Funciones en farmacias hospitalarias.</p>
+          <span>Inicio: 16 Ago 2025</span>
+          <a href="https://wa.me/51907826118?text=Hola,%20quiero%20info%20del%20Rol%20del%20Técnico%20en%20Farmacia" target="_blank">Inscribirme</a>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="btn next">&#10095;</button>
+  </div>
+
+  <!-- BOTÓN FLOTANTE -->
+  <a href="https://wa.me/51907826118?text=Hola,%20quiero%20información%20de%20los%20cursos" 
+     class="whatsapp-float" target="_blank">💬</a>
+
+</section>
+
+<style>
+.cursos-section {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #f5f7fa, #e9f2ff);
+  text-align: center;
+}
+
+.alerta-cursos {
+  background: linear-gradient(45deg, #007BFF, #00c6ff);
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.carrusel-container {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.carrusel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+  padding: 10px;
+}
+
+.curso-card {
+  min-width: 300px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.curso-card:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+.curso-card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  padding: 15px;
+}
+
+.contenido {
+  padding: 20px;
+  text-align: left;
+}
+
+.contenido span {
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.contenido a {
+  display: inline-block;
+  margin-top: 12px;
+  background: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.contenido a:hover {
+  background: #007BFF;
+}
+
+.btn {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  background: #007BFF;
+  color: white;
+  border: none;
+  font-size: 22px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.prev { left: -10px; }
+.next { right: -10px; }
+
+
+</style>
+
+<script>
+const carrusel = document.querySelector(".carrusel");
+const next = document.querySelector(".next");
+const prev = document.querySelector(".prev");
+
+next.addEventListener("click", () => {
+  carrusel.scrollBy({ left: 320, behavior: "smooth" });
+});
+
+prev.addEventListener("click", () => {
+  carrusel.scrollBy({ left: -320, behavior: "smooth" });
+});
+</script>
 <!-- Servicios -->
 <section id="services" class="services">
   <h2 class="section-title">Nuestros Servicios</h2>
@@ -215,83 +438,126 @@
   <a href="https://wa.me/+51907826118" target="_blank" class="btn-whatsapp-float">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
   </a>
-  <!DOCTYPE html>
-  <html lang="es">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Formulario de Contacto</title>
-      <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-      <section class="formulario-contacto">
-          <h1>Contáctanos</h1>
-          <form id="contactForm" action="https://formsubmit.co/corpsanasana@gmail.com" method="POST">
-              <div class="campo">
-                  <label for="nombre">Nombre</label>
-                  <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
-              </div>
-              <div class="campo">
-                  <label for="email">Correo Electrónico</label>
-                  <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
-              </div>
-              <div class="campo">
-                  <label for="mensaje">Mensaje</label>
-                  <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
-              </div>
-              <button type="submit" class="boton">Enviar</button>
-              <input type="hidden" name="next" value="https://websitesecc.github.io/Corporacion-Sana-Sana/index.html">
-              <input type="hidden" name="_captcha" value="false">
-          </form>
-          <div id="mensaje-exito" class="mensaje-exito" style="display: none;">
-              ¡Formulario enviado con éxito! Te responderemos pronto.
-          </div>
-      </section>
-  
-      <footer>
-          <div class="footer-contenido">
-              <div class="informacion">
-                  <h3>SANA SANA</h3>
-                  <p>Dirección: Piura-Sullana, Bellavista</p>
-                  <p>Teléfono: +51 907 826 118</p>
-                  <p>Correo: corpsanasana@gmail.com</p>
-              </div>
-              
-              <!-- Sección de redes sociales -->
-              <div class="redes-sociales">
-                <h4>Síguenos en:</h4>
-                <div class="iconos-redes">
-                    <a href="https://www.facebook.com/share/1GjC8XUNwB/?mibextid=JRoKGi" target="_blank">
-                        <img src="fb sinfondo.png" alt="Facebook" />
-                    </a>
-                    <a href="https://wa.me/+51907826118" target="_blank">
-                        <img src="tuiter-removebg-preview.png" alt="Twitter" />
-                    </a>
-                    <a href="https://instagram.com" target="_blank">
-                        <img src="ig sin fondo.png" alt="Instagram" />
-                    </a>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | SANA SANA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<section id="contacto" class="contacto">
+    <div class="contacto-container">
+
+        <!-- Formulario -->
+        <div class="contacto-formulario">
+            <h2>Contáctanos</h2>
+            <p class="subtitulo">Complete el formulario y nos pondremos en contacto con usted.</p>
+
+            <form action="https://formsubmit.co/corpsanasana@gmail.com" method="POST">
+
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required>
                 </div>
+
+                <div class="campo">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escriba su mensaje" required></textarea>
+                </div>
+
+                <button type="submit" class="boton">Enviar mensaje</button>
+
+                <input type="hidden" name="next" value="https://websitesecc.github.io/Corporacion-Sana-Sana/index.html">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+
+        <!-- Mapa -->
+        <div class="contacto-mapa">
+            <h2>Ubicación</h2>
+            <iframe 
+                src="https://www.google.com/maps?q=Bellavista,+Sullana,+Piura&output=embed"
+                loading="lazy">
+            </iframe>
+
+            <div class="info">
+                <p>Piura - Sullana, Bellavista</p>
+                <p>+51 907 826 118</p>
+                <p>corpsanasana@gmail.com</p>
             </div>
-  
-              <!-- Sección de suscripción -->
-              <div class="suscripcion">
-                  <h4>Suscríbete a nuestras capacitaciones</h4>
-                  <form id="contactForm" action="https://formsubmit.co/corpsanasana@gmail.com" method="POST">
-                      <input type="email" placeholder="Tu correo" required>
-                      <button type="submit">Suscribirse</button>
-                      <input type="hidden" name="next" value="https://websitesecc.github.io/Corporacion-Sana-Sana/index.html">
-                      <input type="hidden" name="_captcha" value="false">
-                  </form>
-              </div>
-  
-              <!-- Enlace al libro de reclamaciones -->
-              <div class="enlaces-footer">
-                  <a href="#" id="libro-reclamaciones">Libro de Reclamaciones</a>
-              </div>
-          </div>
-      </footer>
-  
-      <script src="scripts.js"></script>
-  </body>
-  </html>
-  
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER CORRECTAMENTE UBICADO -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-col">
+      <h2 class="logo">SANA SANA</h2>
+      <p class="description">
+        Organización dedicada a brindar servicios de capacitación y bienestar, 
+        comprometida con la calidad y el desarrollo profesional.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <ul>
+        <li>Piura - Sullana, Bellavista</li>
+        <li>+51 907 826 118</li>
+        <li>corpsanasana@gmail.com</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Enlaces</h4>
+      <ul>
+        <li><a href="#index.html">Inicio</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#catalog">Catalogo</a></li>
+        <li><a href="#cursos">Capacitaciones</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Boletín informativo</h4>
+      <p class="small-text">Reciba información sobre nuestras capacitaciones.</p>
+
+      <form action="https://formsubmit.co/corpsanasana@gmail.com" method="POST" class="form">
+        <input type="email" name="email" placeholder="Ingrese su correo" required>
+        <button type="submit">Suscribirse</button>
+
+        <input type="hidden" name="next" value="https://websitesecc.github.io/Corporacion-Sana-Sana/index.html">
+        <input type="hidden" name="_captcha" value="false">
+      </form>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-bottom-container">
+      <p>© 2024 SANA SANA. Todos los derechos reservados.</p>
+
+      <div class="social">
+        <a href="https://www.facebook.com/share/1GjC8XUNwB/?mibextid=JRoKGi" target="_blank">Facebook</a>
+        <a href="https://wa.me/+51907826118" target="_blank">WhatsApp</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
